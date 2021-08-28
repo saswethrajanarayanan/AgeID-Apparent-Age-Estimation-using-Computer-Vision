@@ -11,7 +11,6 @@ from sklearn import metrics
 import pickle
 
 #detector = MTCNN()
-img = cv2.imread("boy.png")
 des = cv2.ORB_create()
 
 final_train_ImageDescs = []
