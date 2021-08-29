@@ -1,4 +1,6 @@
 # AgeID-Apparent-Age-Estimation-using-Computer-Vision
+UPDATE: I am working on optimising the model further and have therefore not added the training script yet.
+
 A custom lightweight neural network that incorporates a Bag Of Visual Words model alongside a custom shallow CNN to  estimate the apparent age of a face. 
 
 This work uses the features extracted by a Bag of Visual Words model and a custom built shallow CNN to estimate the apparent age of a face.
