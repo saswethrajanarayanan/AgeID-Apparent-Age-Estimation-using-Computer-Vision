@@ -12,7 +12,6 @@ import pickle
 from collections import deque
 
 des = cv2.ORB_create()
-print("OM SAI")
 Q = deque(maxlen = 5)
 
 filename = "K_meansModel.sav"
