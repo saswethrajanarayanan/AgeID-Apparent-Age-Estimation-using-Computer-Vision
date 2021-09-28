@@ -10,7 +10,7 @@ uses a K-Means model that uses a total of 100 clusters. This number for the clus
 
 The resultant model in this work is a hybrid of a shallow CNN, that extracts features through its convolutional kernels and a Bag of Visual words model backed by the ORB feature descriptor. The choice of using ORB over SIFT is attributed to ORB's speed. Both are scale invariant and using SIFT to evaluate the resultant model's performance is an exercise for another day!
 
-The resultant models were not able to completely escape overfitting. However, on the qualitative front, good generalization was observed during the model's testing on real-time videos/images of faces.
+The resultant models were not able to completely escape overfitting. However, on the qualitative front, good generalization was observed during the model's testing on real-time videos of faces using prediction averaging on largely sized windows of 128 frames.
 
 
 
